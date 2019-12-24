@@ -91,6 +91,12 @@ export const asyncRouterMap = [
             name: 'MyTask',
             component: () => import('@/views/project/MyTask'),
             meta: { title: '我的项目任务', permission: ['project'] }
+          },
+          {
+            path: '/project/statistics',
+            name: 'Statistics',
+            component: () => import('@/views/project/Statistics'),
+            meta: { title: '项目统计分析', permission: ['project'] }
           }
         ]
       },

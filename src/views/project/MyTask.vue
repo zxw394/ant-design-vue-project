@@ -263,7 +263,7 @@ export default {
     }
   },
   created () {
-    fetch("https://www.fastmock.site/mock/7f143c4ab35b8dbc46edbcc32c83547a/ty/dhx_tree")
+    fetch("https://www.fastmock.site/mock/7f143c4ab35b8dbc46edbcc32c83547a/ty/dhx_tree2")
       .then(resp => resp.json())
       .then(resp => {
         this.treeDatas = resp;

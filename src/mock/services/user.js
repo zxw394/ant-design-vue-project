@@ -532,6 +532,16 @@ const userNav = (options) => {
       },
       'component': 'MyTask'
     },
+    {
+      'name': 'statistics',
+      'parentId': 9,
+      'id': 92,
+      'meta': {
+        'title': '项目统计分析',
+        'icon': 'project'
+      },
+      'component': 'MyTask'
+    },
 
     // list
     {
